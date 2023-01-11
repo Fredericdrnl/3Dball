@@ -1,0 +1,217 @@
+body {
+	font-size: 15px; /* Taille de la police */
+	line-height: 150%; /* Hauteur de la ligne */
+	margin: auto;/* Les marges sont faites automatiquement */
+    background-color: #efefef;/* La couleur d'arrière plan est grise */
+    overflow-x: hidden;/**/
+    font-family: 'PT Sans', sans-serif;/* La police de caractère est 'PT Sans', sans-serif*/
+}
+
+
+/* Accueil */
+
+header button{
+    float:right;/* Met à droite*/
+    margin-right: 200px;/* La marge est de 200 pixel vers la droite */
+    background-color : #455A64;/* La couleur d'arrière plan est égale à #455A64 */
+    position: relative;  /* La position est relative */
+    color: white;/* La couleur est blanche */
+
+}
+
+header {
+    background: #1c313a;/* La couleur est égale à #1c313a */
+    font-weight: bold;/* */
+    height : 170px;/* La hauteur est de 170 pixel */
+}
+
+header div {
+    position: relative;/* */
+    width: 95em;
+    margin: auto;/* La marge est faite automatiquement */
+}
+header p {
+    color: white;/* La couleur est blanche */
+    font-size: 350%;/* La police de caractère est égale à 350% */
+    position: relative;/**/
+    top: -200px;/* On retire 200 pixel depuis le haut */
+    right: -210px;/* On retire 210 pixel depuis la droite */
+}
+
+header img {
+    border-radius: 200px;/* On arrondi */
+    width: 9%;/* On met à 9% de la largeur */
+    margin: 20px;/* On met la marge à 20 pixel */
+}
+
+
+header div nav{
+    background-color: #455A64;/* La couleur d'arrière plan est égale à #455A64 */
+    padding:0px;/* */
+    line-height: 300%;/**/
+    text-align: center;/**/
+    width: 1200px;/**/
+    position:  relative;/**/
+    top:-220px;/**/
+    left: 210px;/**/
+    padding-left: 0px;/**/
+}
+
+header nav ul li{
+    display: inline-block;/**/
+    margin: 0;/**/
+    padding: 0;/**/
+    margin-left: 60px;/**/
+    margin-right: 60px;/**/
+    cursor: pointer;/**/
+}
+
+header div nav ul li a{
+    text-decoration: none;/**/
+    text-transform: uppercase;/**/
+    padding: 0;/**/
+    border-radius: 0px;/**/
+    margin: 0;/**/
+    color: white;/**/
+    font-size: 115%;/**/
+    font-family: 'Open Sans', sans-serif;/**/
+}
+
+header div nav ul li a:hover{
+    text-decoration: underline;/**/
+}
+
+header ul {
+    padding-left:0px;/**/
+}
+
+.page{
+    text-decoration: underline;/**/
+}
+
+/* article */
+
+article h1 {
+    margin: 60px 60px 50px 80px;/**/
+    padding-top: 50px;/**/
+    background-color: #455A64;/**/
+    color: white;/**/
+    padding: 30px;/**/
+    font-size: 250%;/**/
+    border-radius: 30px;/**/
+    padding-bottom: -50%;
+}
+
+article h3 {
+    margin: 60px 60px 10px 80px;/**/
+    padding-top: 50px;/**/
+    background-color: #718792;
+    color: white;
+    padding: 30px;/**/
+    border-radius: 300px;
+    font-size: 180%;
+    width: 200px;
+    padding-left: 4%;
+}
+
+article img{
+    width: 450px;
+    height: 280px;
+    float: right;
+    padding-right: 3%;
+    padding-top: none;
+}
+
+article div img{
+    width: 450px;
+    height: 325px;
+    float: none;
+    padding-top: 10%;
+    margin-bottom: -200px;
+}
+
+article div{
+    text-align: center;
+    padding-left: 3%;
+    position: relative;
+}
+
+article p{
+    text-align: justify;
+    padding-right: 40%;
+    padding-left: 6%;
+    font-size: 110%;
+}
+
+article button{
+    display: block;
+    margin: auto;
+    border-radius: 200px;
+    background-color: #718792;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: -17.5%;
+    position: relative;
+    width: 220px;
+    height: 90px;
+    box-sizing: content-box;
+    text-transform: uppercase; /* Met le texte en majuscule */
+    margin-bottom: 27%;
+}
+
+/* Footer */
+
+footer div.bottom ul {
+    list-style-type: none; /* Enlève les puces */
+	text-align: right;/**/
+}
+
+footer div h1{
+    text-align: center;/**/
+    color: white;/**/
+    background-color: #455A64 ;/**/
+    padding-top: 30px;/**/
+    padding-bottom: 20px;/**/
+    font-size: 250%;/**/
+    font-family: 'Open Sans', sans-serif;/**/
+}
+
+footer p {
+    text-align: center;/**/
+    font-size: 120%;/**/
+    padding-top:30px;/**/
+    padding-bottom: 40px;/**/
+}
+
+.mentions{
+    float: left; /* Met à gauche */
+    margin: 10px;/* La marge est de 10 pixel */
+    color: white;/* La couleur est blanche */
+    text-align: center;/* Le texte est aligné au centre*/
+    font-size: 110%;/* La police de caractère est de 110% */
+}
+
+.bottom {
+    background:#1C313A;/* la couleur d'arrière plan est égale à #1C313A*/
+    overflow: hidden;/* */
+}
+
+footer div.bottom ul li {
+    display: inline-block;/* */
+    margin: 0;/* */
+    padding: 0;/* */
+    margin-left: 30px;/* La marge fait 30 pixel vers la gauche */
+    margin-right: 30px;/* La marge fait 30 pixel vers la droite */
+}
+
+footer div.bottom ul li img {
+    display: block;/**/
+    width: 50px;/* La largeur est de 50 pixel */
+    height: 50px;/* La hauteur est de 50 pixel */
+    margin: 6px;/* La marge est de 6 pixel */ 
+    float: right; /* Met à droite */
+    margin-left: -30px;/* La marge est réduite de 30 pixels à la gauche */
+    margin-right: 0px;/* Il n'y a plus de marge à droite */
+    border-radius: 100px;/* Arrondi les bordures */
+}
